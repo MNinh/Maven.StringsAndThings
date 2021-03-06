@@ -14,7 +14,7 @@ public class StringsAndThings {
      *           countYZ("day fez"); // Should return 2
      *           countYZ("day fyyyz"); // Should return 2
      */
-    public Integer countYZ(String input){
+    public Integer countYZ(String input){ 
         int yzCount = 0;
         String[] s = input.split(" ");
         for(int i = 0; i < s.length; i++){
